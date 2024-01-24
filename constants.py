@@ -11,6 +11,7 @@ DISPLAY_STEP = 100
 BATCH_SIZE = 128
 HIDDEN_DIM = 128
 LR = 1e-5
+IMG_SIZE = (1, 28, 28)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 BASE_DIR = "."
 LOG_PATH = "./logs"
